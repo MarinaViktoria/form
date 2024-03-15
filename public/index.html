@@ -17,27 +17,27 @@
     <form method="POST" action="/">
         <div class="col-md-4">
             <label for="inputName" class="form-label">Name</label>
-            <input type="text" class="form-control" id="inputName" placeholder="Your name...">
+            <input name="name" type="text" class="form-control" id="inputName" placeholder="Your name...">
           </div>
           <div class="col-md-4">
             <label for="inputLastName" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="inputLastName" placeholder="Your last name...">
+            <input name="lastname" type="text" class="form-control" id="inputLastName" placeholder="Your last name...">
           </div>
         <div class="col-md-4">
           <label for="inputEmail" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="Your Email...">
+          <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Your Email...">
         </div>
         <div class="col-md-4">
           <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="Your address...">
+          <input name="address" type="text" class="form-control" id="inputAddress" placeholder="Your address...">
         </div>
         <div class="col-md-4">
           <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity" placeholder="Your city...">
+          <input name="city" type="text" class="form-control" id="inputCity" placeholder="Your city...">
         </div>
             <div class="col-md-4">
             <label for="inputCountry" class="form-label">Country</label>
-            <select id="inputCountry" class="form-select" placeholder="Your contry...">
+            <select name="country" id="inputCountry" class="form-select" placeholder="Your contry...">
                 <option selected>Choose...</option>
                 <option>USA</option>
                 <option>Canada</option>
@@ -46,11 +46,11 @@
             </div>
             <div class="col-md-4">
             <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip" placeholder="Zip...">
+            <input name="zip" type="text" class="form-control" id="inputZip" placeholder="Zip...">
             </div>
         <div class="col-md-4">
             <label for="inputMessage" class="form-label">Message</label>
-            <textarea class="form-control" id="inputMessage" placeholder="Your message..."></textarea>
+            <textarea name="message" class="form-control" id="inputMessage" placeholder="Your message..."></textarea>
         </div>
         <div>
           <button type="submit" class="btn btn-primary">Sign in</button>
